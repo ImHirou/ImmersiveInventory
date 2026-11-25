@@ -1,0 +1,30 @@
+{
+    "emitters": [
+        {
+            "code": "streak",
+            "shape": "dot",
+            "blend": "glow",
+            "layer": "top",
+            "rate": { "avg": 70, "var": 0 },
+            "spawnArea": { "type": "circle", "radius": 0.025 },
+            "color": [ 225, 235, 255, 210 ],
+            "size": { "avg": 0.07, "var": 0.015 },
+            "sizeEvolve": { "transform": "linear", "factor": -0.7 },
+            "opacityEvolve": { "transform": "linear", "factor": -210 },
+            "lifeLength": { "avg": 0.2, "var": 0.05 }
+        },
+        {
+            "code": "glint",
+            "shape": "star",
+            "blend": "glow",
+            "layer": "top",
+            "rate": { "avg": 5, "var": 0 },
+            "spawnArea": { "type": "circle", "radius": 0.04 },
+            "color": [ 255, 255, 255, 230 ],
+            "size": { "avg": 0.09, "var": 0.03 },
+            "opacityEvolve": { "transform": "linear", "factor": -230 },
+            "lifeLength": { "avg": 0.25, "var": 0.08 },
+            "fadeIn": 0.03
+        }
+    ]
+}

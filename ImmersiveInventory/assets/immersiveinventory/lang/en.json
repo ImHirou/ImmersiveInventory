@@ -1,0 +1,16 @@
+{
+    "command-description": "Immersive Inventory: items on the cursor swing",
+    "command-reload-description": "Reads the settings and the physics rules again",
+    "command-reload-done": "Settings and {0} active physics rules reloaded.",
+    "command-reload-failed": "ModConfig/{0} could not be read; a copy is kept as {1} and the defaults are used. The rules were reloaded.",
+    "command-list-description": "Lists the active physics rules in the order they are checked",
+    "command-list-done": "Rules, first match wins: {0}",
+    "command-debug-description": "Shows the grab point (red), the centre of mass (blue) and the tip (green) and reports rules in chat",
+    "command-debug-on": "Debug on: the stack on the cursor shows its grab point, centre of mass and tip.",
+    "command-debug-off": "Debug off.",
+    "config-load-failed": "Immersive Inventory: ModConfig/{0} could not be read, the default settings are used. Your file was copied to {1}.",
+    "debug-held": "[immersiveinventory] {0}: rule {1}, {2}",
+    "debug-physics-on": "swings",
+    "debug-physics-off": "no physics",
+    "debug-mask": "[immersiveinventory] silhouette {0} px, centre of mass at {1} from the grab point, radius of gyration {2}, tip {3} away"
+}

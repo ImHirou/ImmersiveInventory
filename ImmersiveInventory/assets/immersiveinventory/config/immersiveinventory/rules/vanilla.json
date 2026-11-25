@@ -1,0 +1,75 @@
+[
+    {
+        "code": "liquids",
+        "priority": 1000,
+        "match": { "classes": [ "ItemLiquidPortion" ] },
+        "physics": false
+    },
+    {
+        "code": "containers",
+        "priority": 1000,
+        "match": {
+            "classes": [
+                "BlockBarrel", "BlockBucket", "BlockCookedContainer", "BlockCookingContainer", "BlockCrate", "BlockCrock",
+                "BlockDisplayCase", "BlockGenericTypedContainer", "BlockGenericTypedContainerTrunk", "BlockIngotMold",
+                "BlockLabeledChest", "BlockLiquidContainerTopOpened", "BlockLootVessel", "BlockMeal", "BlockMoldRack",
+                "BlockPlantContainer", "BlockSkep", "BlockSmeltedContainer", "BlockSmeltingContainer", "BlockToolMold",
+                "BlockWateringCan"
+            ]
+        },
+        "physics": false
+    },
+    {
+        "code": "weapons",
+        "priority": 600,
+        "match": {
+            "tools": [
+                "sword", "spear", "javelin", "pike", "halberd", "poleaxe", "polearm", "club", "mace", "warhammer", "staff",
+                "axe", "knife", "scythe", "sickle"
+            ]
+        },
+        "swing": "swing"
+    },
+    {
+        "code": "lights",
+        "priority": 500,
+        "match": { "classes": [ "BlockTorch", "BlockLantern", "BlockOilLamp", "BlockChandelier", "BlockCandle", "BlockBunchOCandles" ] }
+    },
+    {
+        "code": "paperlanterns",
+        "priority": 500,
+        "match": { "codes": [ "game:paperlantern-*" ] }
+    },
+    {
+        "code": "food-blocks",
+        "priority": 400,
+        "match": { "type": "block", "food": true }
+    },
+    {
+        "code": "plants",
+        "priority": 300,
+        "match": {
+            "classes": [
+                "BlockPlant", "BlockWaterPlant", "BlockSeaweed", "BlockWaterLily", "BlockWaterLilyGiant", "BlockMushroom",
+                "BlockSapling", "BlockReeds", "BlockLupine", "BlockFern", "BlockCrowfoot", "BlockHangingLichen", "BlockVines",
+                "BlockBerryBush", "BlockPlantDamageOnTouch"
+            ]
+        }
+    },
+    {
+        "code": "cross-blocks",
+        "priority": 290,
+        "match": { "type": "block", "drawTypes": [ "Cross*" ] }
+    },
+    {
+        "code": "blocks",
+        "priority": 10,
+        "match": { "type": "block" },
+        "physics": false
+    },
+    {
+        "code": "items",
+        "priority": 0,
+        "match": { "type": "item" }
+    }
+]
